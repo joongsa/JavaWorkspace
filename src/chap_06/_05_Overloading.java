@@ -1,0 +1,33 @@
+package chap_06;
+
+import com.sun.org.apache.xerces.internal.util.ShadowedSymbolTable;
+
+public class _05_Overloading {
+    public static int getPower(int number) {
+        int result = number * number;
+        return result;
+    }
+
+    public static int getPower(String strNumber) {
+        int number = Integer.parseInt(strNumber);
+        return number * number;
+    }
+
+    public static int getPower(int number, int exponent) {
+        int result = 1;
+        for (int i = 0; i < exponent; i++) {
+            result *= number;
+        }
+        return result;
+    }
+
+    //메소드오버로딩 파라미터 변수타입 다르거나 변수갯수가 다르더라고 동일한 함수 명으로 사용 가능==> 메소드오버로딩
+    public static void main(String[] args) {
+        System.out.println(getPower(3));
+        System.out.println(getPower("4"));
+        System.out.println(getPower(2,3));
+
+    }
+
+
+}

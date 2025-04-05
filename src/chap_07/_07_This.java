@@ -13,5 +13,7 @@ public class _07_This {
         System.out.println("노트북도 완성 휴...");
 
         System.out.println("머지 어케 해야하는거?");
+
+        System.out.println("집컴퓨터 111");
     }
 }

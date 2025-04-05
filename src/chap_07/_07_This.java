@@ -9,6 +9,6 @@ public class _07_This {
 
         System.out.println("아오 빡쳐");
 
-        System.out.println("휴....이제 이거 바뀌면 어케 되지??");
+        System.out.println("휴....이제 이거 바뀌면 어케 되지?????오잉");
     }
 }

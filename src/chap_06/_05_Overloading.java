@@ -1,7 +1,5 @@
 package chap_06;
 
-import com.sun.org.apache.xerces.internal.util.ShadowedSymbolTable;
-
 public class _05_Overloading {
     public static int getPower(int number) {
         int result = number * number;

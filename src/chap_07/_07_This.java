@@ -5,6 +5,8 @@ public class _07_This {
         BlackBox b1 = new BlackBox();
         b1.mname = "까망이";
         b1.appendMname("(최신형23)");
-        System.out.println(b1.mname);
+
+
+        System.out.println("아오 빡쳐");
     }
 }

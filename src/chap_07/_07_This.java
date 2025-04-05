@@ -8,5 +8,6 @@ public class _07_This {
 
 
         System.out.println("아오 빡쳐");
+        System.out.println("노트북도 완성 휴...");
     }
 }

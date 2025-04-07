@@ -32,8 +32,7 @@ public class BlackBoxRefurbish {
     public void setPrice(int price) {
         if (price < 100000) {
             this.price = 100000;
-        }
-        else {
+        } else {
             this.price = price;
         }
     }

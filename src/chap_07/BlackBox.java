@@ -116,4 +116,6 @@ public class BlackBox {
     void setColor(String color) {
         this.color = color;
     }
+
+
 }

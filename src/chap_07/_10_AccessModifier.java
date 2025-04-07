@@ -2,8 +2,8 @@ package chap_07;
 
 public class _10_AccessModifier {
     public static void main(String[] args) {
-        // 캡슐화 (Encapsulation)
-        // 정보은닉 (Information hiding)
+        // 캡슐화 (Encapsulation) : 블랙박스 기능만
+        // 정보은닉 (Information hiding) : 직접접근X, 접근제어자/게터세터 등
 
         // 접근 제어자
         // private : 해당 클래스 내에서만 접근 가능

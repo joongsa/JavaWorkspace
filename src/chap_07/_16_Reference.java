@@ -31,15 +31,19 @@ public class _16_Reference {
         System.out.println(b);
 
         System.out.println("-------------------");
-        Camera c1 = new Camera();
-        Camera c2 = new Camera();
+        Camera c1 = new Camera();   //A
+        Camera c2 = new Camera();   //B
         c1.name = "카메라1";
         c2.name = "카메라2";
         System.out.println(c1.name);
         System.out.println(c2.name);
-        c2 = c1;
+
+        System.out.println("----");
+        c2 = c1;                        //==> C2가 A를 바라보게됨
         System.out.println(c1.name);
         System.out.println(c2.name);
+
+        System.out.println("----");
         c2.name = "고장난 카메라";
         System.out.println(c1.name);
         System.out.println(c2.name);
